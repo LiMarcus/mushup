@@ -1,0 +1,18 @@
+.home-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-button{
+    width: 100px;
+    margin: 10px;
+}
+
+
+  

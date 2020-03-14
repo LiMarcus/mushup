@@ -1,0 +1,32 @@
+
+
+.app {
+    height: 10em;
+    width: 10em;
+    background: lightblue;
+    overflow: hidden;
+}
+  
+.modal {
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-text{
+    background-color: darkgray;
+    font-size: 20px;
+}
+
+.modal-button{
+    height: 30px;
+    border-radius: 15%;
+    margin-left: 10px;
+}

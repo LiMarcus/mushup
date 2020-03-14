@@ -1,0 +1,59 @@
+.bubble {
+	height: 75px;
+	min-width: auto;
+	background: ivory;
+    display: block;
+	border-radius: 20px;
+	font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+.pointer {
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    margin-top: -100px;
+    left: 2px;
+    top: 5px;
+    position: relative;
+    border-top: 20px solid ivory;
+    z-index: -1;
+}
+
+.blurred {
+	background: darkgray;
+	filter: blur(10px);
+	position: relative;
+
+/* 	transform: scale(1.05); */
+	z-index: -2;
+}
+
+.bubble-container{
+    width: 250px;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.weather-img{
+    width: 50px;
+    height: 50px;
+}
+.box-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}

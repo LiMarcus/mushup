@@ -1,0 +1,18 @@
+.show-container{
+    margin: 20px;
+    width: 500px;
+}
+
+.dd-list-item{
+    display: flex;
+}
+.close-tag{
+    /* position: relative;
+    top: 5px;
+    right: 0; */
+    margin-left: 10px;
+}
+/* .list-iframe{
+    margin: 5px;
+    height: auto;
+} */

@@ -1,0 +1,17 @@
+.dd-list{
+    height: 400px;
+    overflow: auto;
+    margin: 0;
+}
+.dd-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.dd-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
